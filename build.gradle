@@ -5,6 +5,11 @@ plugins {
 version = "1.0.0"
 group = "com.mybezo.mod"
 
+repositories {
+    maven { url = "https://maven.fabricmc.net/" }
+    mavenCentral()
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:1.21.1"
     mappings "net.fabricmc:yarn:1.21.1+build.3:v2"
