@@ -1,1 +1,14 @@
 
+{
+  "required": true,
+  "package": "com.mybezo.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "SlimefunLockerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
